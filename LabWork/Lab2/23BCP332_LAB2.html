@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="description"
+      content="Jayneel Mukeshkumar Mahival's personal profile showcasing projects, skills, and contact details." />
+   <meta name="author" content="Jayneel Mukeshkumar Mahival" />
+   <meta name="keywords" content="Jayneel Mukeshkumar Mahival, portfolio, web developer, HTML, resume" />
+   <title>Jayneel Mukeshkumar Mahival | Personal Profile</title>
+   <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+   <div role="document">
+
+      <!-- Header using Table -->
+      <!-- Header with only navigation -->
+      <header role="banner">
+         <table class="nav-table">
+            <tr>
+               <td><a href="#about">About</a></td>
+               <td><a href="#skills">Skills</a></td>
+               <td><a href="#projects">Projects</a></td>
+               <td><a href="#education">Education</a></td>
+               <td><a href="#contact">Contact</a></td>
+            </tr>
+         </table>
+      </header>
+
+
+      <main>
+         <section id="about" role="region">
+            <article>
+               <table>
+                  <td class="logo-cell">
+                     <img src="/LabWork/Lab2/23BCP332_IMG.jpg" alt="Jayneel Photo" class="profile-pic" />
+                  </td>
+                  <td class="name-cell">
+                     <h1>Jayneel Mukeshkumar Mahival</h1>
+                     <p class="subtitle">Web Developer | Tech Enthusiast | Lifelong Learner</p>
+                  </td>
+               </table>
+               <h2>🧑‍🏫 About Me</h2>
+               <p>Hello! I'm <mark>Jayneel Mahival</mark>, a passionate web developer who loves solving real-world
+                  problems through creative code. I specialize in building full-stack applications and exploring new
+                  tech trends. I'm also interested in AI, open-source, and DSA.</p>
+            </article>
+         </section>
+
+         <section id="skills" role="region">
+            <h2>🛠️ Skills</h2>
+            <dl>
+               <dt>Frontend:</dt>
+               <dd>HTML, CSS, JavaScript, React, TypeScript, Next.js</dd>
+               <dt>Backend:</dt>
+               <dd>Node.js, Express, MySQL, MongoDB, PostgreSQL, Prisma, Django</dd>
+               <dt>Tools:</dt>
+               <dd>Git, GitHub, Postman, Docker (basics)</dd>
+            </dl>
+         </section>
+
+         <section id="education">
+            <h2>🎓 Education</h2>
+            <table border="1" width="100%" cellpadding="10">
+               <thead>
+                  <tr>
+                     <th>Degree</th>
+                     <th>Institution</th>
+                     <th>Year</th>
+                     <th>Details</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>B.Tech in Computer Science</td>
+                     <td>Pandit Deendayal Energy University</td>
+                     <td>2025</td>
+                     <td>CGPA: 9.6</td>
+                  </tr>
+               </tbody>
+            </table>
+         </section>
+
+         <section id="projects">
+            <h2>📁 Projects</h2>
+            <ol>
+               <li>
+                  <h3><a href="https://second-brain-app-project.vercel.app" target="_blank">Second Brain</a></h3>
+                  <p>A productivity tool to save reminders, YouTube videos, and notes — all in one place.</p>
+               </li>
+               <li>
+                  <h3><a href="https://edu-connect-project.vercel.app" target="_blank">EduConnect</a></h3>
+                  <p>An online course-selling platform with secure payment and user dashboard integration.</p>
+               </li>
+               <li>
+                  <h3><a href="https://github.com/Hyper099/scholarsync-resume-integration-jayneel-mahival"
+                        target="_blank">ScholarSync</a></h3>
+                  <p>An app that parses your resume and syncs it with your Google Scholar profile to suggest
+                     improvements and projects.</p>
+               </li>
+            </ol>
+         </section>
+
+         <aside>
+            <h2>📌 Quick Facts</h2>
+            <ul>
+               <li>Loves Hackathons</li>
+               <li>Always learning new tech</li>
+               <li>Open to collaboration</li>
+            </ul>
+         </aside>
+
+         <section id="contact">
+            <h2>📬 Contact Me</h2>
+            <form action="#" method="POST" autocomplete="on">
+               <fieldset>
+                  <legend>Get in Touch</legend>
+                  <label for="name">Name:</label><br />
+                  <input type="text" id="name" name="name" required /><br /><br />
+                  <label for="email">Email:</label><br />
+                  <input type="email" id="email" name="email" required /><br /><br />
+                  <label for="topic">Topic:</label><br />
+                  <select id="topic" name="topic">
+                     <option value="collab">Collaboration</option>
+                     <option value="query">Query</option>
+                     <option value="hire">Hiring</option>
+                  </select><br /><br />
+                  <label for="message">Message:</label><br />
+                  <textarea id="message" name="message" rows="5" cols="40" required></textarea><br /><br />
+                  <input type="submit" value="Send" />
+                  <input type="reset" value="Reset" />
+               </fieldset>
+            </form>
+         </section>
+      </main>
+
+      <footer align="center">
+         <hr />
+         <p>&copy; 2025 Jayneel Mukeshkumar Mahival | Connect via <a
+               href="mailto:jenil.mahival@gmail.com">jenil.mahival@gmail.com</a></p>
+      </footer>
+   </div>
+</body>
+
+</html>
