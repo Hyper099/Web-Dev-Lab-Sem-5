@@ -1,0 +1,164 @@
+*{
+   padding:0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #121212;
+   color: #e0e0e0;
+}
+
+a {
+   color: #4db6ff;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #82cfff;
+   text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+   color: #ffffff;
+   margin-bottom: 30px;
+}
+
+mark {
+   background-color: #ffcc00;
+   color: #000;
+   padding: 2px 4px;
+   border-radius: 4px;
+}
+
+.header-table {
+   width: 100%;
+   background: #1e1e1e;
+   padding: 10px;
+   border-collapse: collapse;
+}
+
+.logo-cell {
+   width: 120px;
+   padding: 10px;
+}
+
+.profile-pic {
+   width: 100px;
+   height: 120px;
+   border-radius: 8px;
+}
+
+.name-cell {
+   text-align: center;
+   padding: 10px;
+}
+
+.subtitle {
+   color: #bbbbbb;
+   font-size: 14px;
+}
+
+.nav-cell {
+   text-align: right;
+   padding: 10px;
+}
+
+.nav-cell ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.nav-cell li {
+   display: inline-block;
+   margin-left: 15px;
+}
+
+.nav-cell a {
+   font-weight: bold;
+   transition: color 0.3s ease;
+}
+
+section,
+aside {
+   padding: 20px;
+   margin: 10px auto;
+   max-width: 900px;
+   background: #1a1a1a;
+   border-radius: 8px;
+}
+
+table {
+   border-collapse: collapse;
+   background: #1a1a1a;
+   width: 100%;
+   color: #e0e0e0;
+}
+
+th,
+td {
+   border: 1px solid #333;
+   padding: 10px;
+   text-align: center;
+}
+
+th {
+   background: #2b2b2b;  
+}
+
+input,
+select,
+textarea {
+   background: #2b2b2b;
+   color: #fff;
+   border: 1px solid #444;
+   border-radius: 5px;
+   padding: 8px;
+   /* width: 100%; */
+}
+
+input[type="submit"],
+input[type="reset"] {
+   background: #4db6ff;
+   margin: 5px;
+   max-width: 100px;
+   color: #000;
+   border: none;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+   background: #82cfff;
+   width: 100%;
+}
+
+footer {
+   background: #1e1e1e;
+   padding: 15px;
+   font-size: 14px;
+   color: #bbbbbb;
+}
+
+
+
+form{
+   border: 1px solid white;
+   padding: 30px;
+   border-radius: 20px;
+   text-align: center;
+}
+
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 90vh;
+}
+
+
