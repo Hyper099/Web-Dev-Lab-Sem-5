@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 2</title>
+</head>
+    
+<body>
+    <label>
+      Choose Principle:
+      <input id="principle" type="range" min="100" max="6000" value="100" oninput="principleDisplay.textContent = this.value" onchange="calculate()">
+      <label id="principleDisplay">100</label>
+    </label>
+    
+    <br>
+    <label>
+      Choose Rate:
+      <input id="rate" type="range" min="1" max="10" value="1" oninput="rateDisplay.textContent = this.value" onchange="calculate()">
+      <label id="rateDisplay">1</label>
+    </label>
+
+
+    <br>
+    <label>Time :</label>
+    <input id="time" type="number" value="1" onchange="calculate()"> Months 
+
+    <br>
+    <label>Output : </label>
+    <div id="output"></div>
+
+    <script>
+        function calculate(){
+            const p = document.getElementById('principle').value;
+            const r = document.getElementById('rate').value;
+            const t = document.getElementById('time').value;
+
+            const i = (p*r*t)/100;
+            output = document.getElementById('output');
+            output.innerHTML = i;
+        }
+        window.addEventListener("load", calculate);
+    </script>
+</body>
+</html>
