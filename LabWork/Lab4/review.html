@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Page</title>
+    <link rel="stylesheet" href="review.css">
+</head>
+
+<body>
+   
+
+    <header role="banner">
+        <table class="nav-table">
+            <tr>
+                <td><a href="#about">About</a></td>
+                <td><a href="#skills">Skills</a></td>
+                <td><a href="#projects">Projects</a></td>
+                <td><a href="#education">Education</a></td>
+                <td><a href="#contact">Contact</a></td>
+            </tr>
+        </table>
+        <table class="nav-table">
+            <tr>
+                <td><a href="/LabWork/Lab4/login.html">Login</a></td>
+                <td><a href="/LabWork/Lab4/register.html">Register</a></td>
+                <td><a href="/LabWork/Lab4/review.html">Review</a></td>
+            </tr>
+        </table>
+    </header>
+
+    <h1><b><u>REVIEW PAGE</u></b></h1>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend><b>Rate Us:</b></legend>
+
+            <label>
+                <input type="radio" name="rating" value="1" required> ⭐ Very Poor
+            </label>
+
+            <label>
+                <input type="radio" name="rating" value="2"> ⭐⭐ Poor
+            </label>
+
+            <label>
+                <input type="radio" name="rating" value="3"> ⭐⭐⭐ Neutral
+            </label>
+
+            <label>
+                <input type="radio" name="rating" value="4"> ⭐⭐⭐⭐ Satisfied
+            </label>
+
+            <label>
+                <input type="radio" name="rating" value="5"> ⭐⭐⭐⭐⭐ Very Satisfied
+            </label>
+        </fieldset>
+
+        <label for="comments"><b>Additional Comments:</b></label>
+        <textarea id="comments" name="comments" rows="4" placeholder="Write your feedback here..."></textarea>
+
+        <input type="submit" value="Submit Review">
+    </form>
+
+</body>
+
+</html>
